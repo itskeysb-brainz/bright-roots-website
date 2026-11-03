@@ -1,0 +1,50 @@
+BRIGHT ROOTS DAYCARE & KINDERGARTEN
+WEBSITE PUBLISHING + GOOGLE SEARCH CONSOLE CHECKLIST
+
+IMPORTANT: index.html is at the ROOT of this ZIP. Keep all extracted files and folders together.
+When uploading to GitHub, upload the CONTENTS of this extracted folder into the repository root.
+Do not upload the parent folder as an extra nested level. GitHub must show index.html beside style.css.
+
+WEBSITE
+Canonical domain: https://brightrootsdaycareandkindergarten.com/
+Sitemap: https://brightrootsdaycareandkindergarten.com/sitemap.xml
+Crawler rules: https://brightrootsdaycareandkindergarten.com/robots.txt
+
+GITHUB PUBLISHING
+1. Extract bright-roots-daycare.zip on your computer.
+2. Open the extracted folder and confirm index.html is visible immediately.
+3. In the GitHub repository, upload the CONTENTS of this folder (not an extra enclosing folder).
+4. Confirm index.html appears at the top level of the repository.
+5. Configure GitHub Pages or deploy through your selected host.
+6. Test the live homepage and several inner pages before submitting to Google.
+
+GOOGLE SEARCH CONSOLE (FREE)
+1. Open https://search.google.com/search-console/ and sign in using the Google account the school controls.
+2. Click Add property.
+3. Choose Domain and enter: brightrootsdaycareandkindergarten.com
+   Do not include https:// or www.
+4. Google will show a unique DNS TXT verification record. Copy the exact value.
+5. Sign in to the ACTIVE DNS provider for the domain. The registrar may be Truehost while DNS is managed elsewhere (for example Cloudflare). Add a TXT record:
+   Type: TXT
+   Name/Host: @ (or blank if the DNS provider requires blank)
+   Value/Content: paste the exact Google verification string
+   TTL: Auto/default
+6. Do not remove or change existing nameserver, MX, email, or website records. Add only Google's TXT record.
+7. Return to Search Console and click Verify. DNS changes may take time to appear.
+8. After verification, open Sitemaps in the left menu and submit:
+   sitemap.xml
+9. Use URL Inspection to test the homepage:
+   https://brightrootsdaycareandkindergarten.com/
+   If it is live and accessible, choose Request Indexing.
+10. Repeat URL Inspection for the main Admissions, Programmes and Contact pages if needed.
+
+IMPORTANT SEO EXPECTATIONS
+- Search Console submission does not guarantee instant indexing or a first-place ranking.
+- Google decides whether and where pages appear. Ranking depends on relevance, quality, competition, reputation, links, and other signals.
+- Keep the school name, address/location, phone numbers, opening/admissions information and services accurate and consistent.
+- Ask the school to create/claim and verify its Google Business Profile, then keep its name, address, phone, website and hours accurate. This is especially important for local searches.
+- Do not add fake reviews, fake addresses, or repeated keyword stuffing.
+- The site needs to be publicly live over HTTPS before Google can crawl it reliably.
+
+VERIFICATION TOKEN
+No Google verification token has been inserted in this package. Google generates a private, account-specific token after you add the property. Add that exact token in the DNS provider; never use a token copied from another website.
