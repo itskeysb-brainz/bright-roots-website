@@ -1,0 +1,6 @@
+# Search engine crawler rules for Bright Roots.
+# Canonical domain: brightrootsdaycareandkindergarten.com.
+User-agent: *
+Allow: /
+
+Sitemap: https://brightrootsdaycareandkindergarten.com/sitemap.xml
