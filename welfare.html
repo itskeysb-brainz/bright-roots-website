@@ -30,13 +30,13 @@
 <link rel="icon" type="image/png" href="assets/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/clean.css">
 </head>
-<body>
+<body class="has-banner">
 <div class="loader" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 <!-- PAGE CONTENT: Edit the visible text and sections below. Keep navigation links and filenames consistent. -->
-<div class="progress" id="progress"></div>
 <div class="topbar">
   <a class="pill" href="admissions.html">Admissions 2027 now open →</a>
   <a href="tel:+256700436527"><i><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></i> 0700 436 527 | 0759 709 695</a>
@@ -44,7 +44,7 @@
   <a href="https://www.google.com/maps/search/?api=1&query=Bright+Roots+International+Lubowa+Kampala" data-link="maps" target="_blank" rel="noopener"><i><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></i> Lubowa, Kampala</a>
 </div>
 
-<header class="nav" id="nav">
+<header class="nav hdr-transparent menu-tabs" id="nav">
   <a class="brand" href="index.html" aria-label="Bright Roots Daycare & Kindergarten home">
     <img class="logo" src="assets/img/logo.png" alt="Bright Roots Daycare & Kindergarten logo">
 
@@ -81,9 +81,28 @@
 <footer class="foot">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="b-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"/></symbol><symbol id="b-fb" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a9 9 0 0 1 1.141.195v3.325a9 9 0 0 0-.653-.036 27 27 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.7 1.7 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647"/></symbol><symbol id="b-ig" viewBox="0 0 24 24"><path d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388 5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552 1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388 5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912.056-1.28.07-1.69.063-4.948-.006-3.258-.02-3.667-.081-4.947-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123 5.86 5.86 0 0 0-2.128-1.38C19.074.322 18.202.12 16.924.066 15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895 3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228-.06-1.264-.072-1.644-.08-4.848-.006-3.204.006-3.583.061-4.848.05-1.169.246-1.805.408-2.228.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417 1.265-.06 1.644-.072 4.848-.08 3.203-.006 3.583.006 4.85.062 1.168.05 1.804.244 2.227.408.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227.06 1.265.074 1.645.08 4.848.005 3.203-.006 3.583-.061 4.848-.051 1.17-.245 1.805-.408 2.23-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442 1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024 6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16 4 4 0 0 1 8 12.008"/></symbol><symbol id="b-map" viewBox="0 0 24 24"><path d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18q.371.465.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.4 3.4 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05zM14.661.436l-3.838 4.563.027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.38 8.38 0 0 0 14.67.439zM9.466 5.868 14.162.285l-.047-.012A8.3 8.3 0 0 0 11.986 0a8.44 8.44 0 0 0-6.169 2.766l-.016.018z"/></symbol></defs></svg>
 <div class="fglass">
-  <div class="fgrid">
-    <div class="fcol fabout">
-      <a class="fbrand" href="index.html"><img class="logo" src="assets/img/logo.png" alt="Bright Roots logo"><span><b>Bright Roots</b><small>INTERNATIONAL</small></span></a>
+  <div class="fwrap">
+    <div class="fgrid2">
+      <div class="fbig">
+        <a href="index.html" aria-label="Bright Roots home"><img src="assets/img/logo.png" alt="Bright Roots Daycare &amp; Kindergarten"></a>
+      </div>
+      <div class="flinks">
+        <nav class="fcol" aria-label="About"><h4>About</h4><a href="about.html#story">Our Story</a><a href="directors-message.html">Director’s Message</a><a href="welfare.html">Welfare &amp; Safety</a><a href="gallery.html">Gallery</a></nav>
+        <nav class="fcol" aria-label="Programmes"><h4>Programmes</h4><a href="programmes.html#daycare">Daycare</a><a href="programmes.html#little-learners">Little Learners</a><a href="programmes.html#growing-learners">Growing Learners</a><a href="programmes.html#ready-learners">Ready Learners</a></nav>
+        <nav class="fcol" aria-label="Join us"><h4>Join us</h4><a href="admissions.html">Admissions 2027</a><a href="fees.html">Fees &amp; Info</a><a href="facilities.html">Facilities</a><a href="school-life.html">School Life</a></nav>
+      </div>
+      <div class="floc">
+        <h4>Contact Us</h4>
+        <a data-link="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Bright+Roots+International+Lubowa+Kampala" target="_blank" rel="noopener"><i><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></i><span>Lubowa, Kampala</span></a>
+        <a href="tel:+256700436527"><i><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></i><span>0700 436 527</span></a>
+        <a href="tel:+256759709695"><i><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></i><span>0759 709 695</span></a>
+        <a href="mailto:info@brightroots.ug"><i><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg></i><span>info@brightroots.ug</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="fbar">
+    <div class="fwrap fbar-in">
+      <span>© <span id="yr"></span> Bright Roots Daycare &amp; Kindergarten</span>
       <div class="soc">
         <a class="wa" data-link="whatsapp" href="https://wa.me/256700436527" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="bico" aria-hidden="true"><use href="#b-wa"/></svg></a>
         <a class="fb" data-link="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="bico" aria-hidden="true"><use href="#b-fb"/></svg></a>
@@ -91,17 +110,7 @@
         <a class="mp" data-link="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Bright+Roots+International+Lubowa+Kampala" target="_blank" rel="noopener" aria-label="Google Maps"><svg class="bico" aria-hidden="true"><use href="#b-map"/></svg></a>
       </div>
     </div>
-    <nav class="fcol" aria-label="About"><h4>About</h4><a href="about.html#story">Our Story</a><a href="directors-message.html">Director’s Message</a><a href="welfare.html">Welfare &amp; Safety</a><a href="gallery.html">Gallery</a></nav>
-    <nav class="fcol" aria-label="Programmes"><h4>Programmes</h4><a href="programmes.html#daycare">Daycare</a><a href="programmes.html#little-learners">Little Learners</a><a href="programmes.html#growing-learners">Growing Learners</a><a href="programmes.html#ready-learners">Ready Learners</a></nav>
-    <nav class="fcol" aria-label="Join us"><h4>Join us</h4><a href="admissions.html">Admissions 2027</a><a href="fees.html">Fees &amp; Info</a><a href="facilities.html">Facilities</a><a href="school-life.html">School Life</a></nav>
-    <div class="fcol"><h4>Contact</h4>
-      <a href="tel:+256700436527"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>0700 436 527</a>
-      <a href="tel:+256759709695"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>0759 709 695</a>
-      <a href="mailto:info@brightroots.ug"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>info@brightroots.ug</a>
-      <a data-link="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Bright+Roots+International+Lubowa+Kampala" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Lubowa, Kampala</a>
-    </div>
   </div>
-  <div class="copy">© <span id="yr"></span> Bright Roots Daycare &amp; Kindergarten</div>
 </div>
 </footer>
 
@@ -135,6 +144,7 @@
 </defs></svg>
 <button class="totop" id="totop" aria-label="Back to top">↑</button>
 <div class="lb" id="lb"><img alt=""><button aria-label="Close">×</button></div>
-<script src="script.js"></script>
+<script>window.BR={ajax:'',nonce:'',whatsapp:'256700436527',waAfter:true,fx:true,sticky:true,speed:6000,ok:'Opening WhatsApp so you can send your message. Thank you!',links:{facebook:'https://www.facebook.com/',instagram:'https://www.instagram.com/',maps:'https://www.google.com/maps/search/?api=1&query=Bright+Roots+International+Lubowa+Kampala'}};</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
