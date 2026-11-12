@@ -1,0 +1,15 @@
+{
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "editor.wrappingIndent": "indent",
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.wordWrap": "on"
+  },
+  "[css]": {
+    "editor.wordWrap": "on"
+  },
+  "[javascript]": {
+    "editor.wordWrap": "on"
+  }
+}
